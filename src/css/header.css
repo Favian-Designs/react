@@ -1,0 +1,109 @@
+:root{
+  --color:#1fa8d1;
+}
+.header{
+  box-sizing: border-box;
+  width: 100%;
+  height: 8vh;
+  min-height: 60px;
+  padding: 1% 10% 0;
+
+  display: flex;
+  justify-content: space-between;
+  
+  position: fixed;
+  top: 0;
+
+  z-index: 10;
+}
+.item_header{
+  background-color: var(--color);
+  border-radius: 50px;
+  outline: 3px solid #292929;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15%;
+}
+.section-contacts{
+  outline: 2px solid #29292900;
+  cursor: pointer;
+
+  width: 10%;
+  min-width: 50px;
+
+  animation-name: buttomContactAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes buttomContactAnimation {
+  0%{
+    outline: 2px solid #29292900;
+  }
+  50%{
+    outline: 2px solid rgba(68, 255, 121, 0.6);
+  }
+  100%{
+    outline: 2px solid #29292900;
+  }
+}
+.section-menu{
+  width: 45%;
+  min-width: 450px;
+}
+.section{
+  background: var(--color) url("../assets/images/selector.png") top no-repeat;
+  background-size: 0%;
+  
+  border: 0;
+  cursor: pointer;
+
+  height: 100%;
+  width: 15%;
+  min-width: 30px;
+  padding-bottom: 3px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+
+  transition-property: all;
+  transition-duration: 500ms;
+}
+.sectionActive{
+  background-size: 110%;
+}
+.icon{
+  /* height: 80%; */
+  width: 50%;
+  max-width: 45px;
+  
+  transition-property: all;
+  transition-duration: 500ms;
+}
+.icon_section{
+  /* height: 70%; */
+  width: 60%;
+}
+.iconActive{
+  /* height: 60%; */
+  width: 50%;
+}
+.indicator{
+  background-color: #333;
+  /* box-shadow: 0px 0px 5px 2px #44ff79; */
+  border-radius: 100%;
+
+  height: 5px;
+  width: 5px;
+
+  transition-property: background-color,box-shadow;
+  transition-duration: 500ms;
+}
+.active{
+  background-color: #44ff79;
+  box-shadow: 0px 0px 5px 2px #44ff79;
+}
