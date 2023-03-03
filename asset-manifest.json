@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.9b0bca37.css",
+    "main.js": "/react/static/js/main.8d35d796.js",
+    "static/js/787.ae0d8d37.chunk.js": "/react/static/js/787.ae0d8d37.chunk.js",
+    "static/media/OpenSans-Regular.ttf": "/react/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/animation--font.png": "/react/static/media/animation--font.cf6a81feb2dd227ca6b5.png",
+    "static/media/background.jpg": "/react/static/media/background.d1f4c269e9db06406a8a.jpg",
+    "static/media/netlify.png": "/react/static/media/netlify.73830193f8bc26338bf5.png",
+    "static/media/favian.png": "/react/static/media/favian.40025b568ac89b161c31.png",
+    "static/media/instagram.png": "/react/static/media/instagram.48ccb33eacebdf87f40d.png",
+    "static/media/qr.jpg": "/react/static/media/qr.47b01e4b305488b65d54.jpg",
+    "static/media/photoshop.png": "/react/static/media/photoshop.5e15df5bfd09d44ff0ec.png",
+    "static/media/logo.png": "/react/static/media/logo.f7ee2ed817cdfed7e496.png",
+    "static/media/react.png": "/react/static/media/react.6f50f24970eb52f2cb9c.png",
+    "static/media/gmail.png": "/react/static/media/gmail.ceaaa6587f1fe3d51498.png",
+    "static/media/whatsapp.png": "/react/static/media/whatsapp.4f7d98984d1cb82115ce.png",
+    "static/media/idea.svg": "/react/static/media/idea.76ab660da4f3cef618ed3f5c23333f11.svg",
+    "static/media/contact.svg": "/react/static/media/contact.bcd5d549801d4e09fbbe126582c1f75f.svg",
+    "index.html": "/react/index.html",
+    "static/media/business.svg": "/react/static/media/business.7537a475fc6abe5be00af18078997af8.svg",
+    "static/media/person.svg": "/react/static/media/person.03b90a45eec7c03e60eb14b503acfc00.svg",
+    "main.9b0bca37.css.map": "/react/static/css/main.9b0bca37.css.map",
+    "main.8d35d796.js.map": "/react/static/js/main.8d35d796.js.map",
+    "787.ae0d8d37.chunk.js.map": "/react/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0bca37.css",
+    "static/js/main.8d35d796.js"
+  ]
+}
